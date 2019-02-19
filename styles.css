@@ -1,5 +1,5 @@
 body {
-font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .container {
@@ -36,10 +36,10 @@ font-family: 'Lato', sans-serif;
 }
 
 .bowie-birthday {
-    border-radius: 61px;
-    height: 120px;
-    margin-top: 16px;
-    width: 120px;
+  border-radius: 61px;
+  height: 120px;
+  margin-top: 16px;
+  width: 120px;
 }
 
 .fas {
@@ -65,7 +65,6 @@ font-family: 'Lato', sans-serif;
 .check-boxes {
   margin-left: 12px;
   margin-right: 9px;
-
 }
 
 .top-bar {
@@ -78,9 +77,9 @@ font-family: 'Lato', sans-serif;
 }
 
 .fa-bars {
+  font-size: 20px;
   margin-right: 10px;
   padding-left: 20px;
-  font-size: 20px;
 }
 
 .top-main-search {
@@ -100,18 +99,18 @@ font-family: 'Lato', sans-serif;
 }
 
 .fa-user {
-  margin-left: 10px;
   font-size: 20px;
+  margin-left: 10px;
 }
 
 .fa-calendar-alt {
-  margin-left: 10px;
   font-size: 20px;
+  margin-left: 10px;
 }
 
 .fa-th {
-  margin-left: 10px;
   font-size: 20px;
+  margin-left: 10px;
 }
 
 .middle-top-bar {
@@ -122,6 +121,7 @@ font-family: 'Lato', sans-serif;
 h2 {
   margin-bottom:-8px;
 }
+
 .location-info {
   display: flex;
 }
@@ -162,15 +162,8 @@ h4 {
 }
 
 .round-buttons {
-  padding-top:6px;
   border-radius: 30px;
-}
-.ribbon-but {
-
-}
-
-.fa-ribbon {
-
+  padding-top:6px;
 }
 
 .lower-top-bar {
@@ -179,7 +172,6 @@ h4 {
   justify-content: space-evenly;
   margin-right: 64px;
 }
-
 
 .chart {
   background-color: #EDF2F6;
@@ -190,9 +182,7 @@ h4 {
 .circles {
   display: flex;
   padding: 10px;
-
 }
-
 
 .circle-chart {
   width: 109%;
@@ -204,9 +194,9 @@ h4 {
 }
 
 .bar-graph {
-  width: 90%;
   height: 84%;
   margin-left: 41px;
+  width: 90%;
 }
 
 .main {
@@ -229,28 +219,20 @@ h4 {
 }
 
 .hiring-pic {
+  border-radius: 14px;
   height: auto;
   width: inherit;
-  border-radius: 14px;
 }
+
 .giuseppe {
   margin-right: 162px;
   margin-top: 8px;
 }
 
-.res-table {
-}
-
 td {
   width: 33%;
 }
-table td {
-  
-}
 
-table {
-
-}
 thead {
   background-color: #6E7E95;
   color: #ffffff;
@@ -266,66 +248,63 @@ td input {
 }
 
 .facebook {
+  background-color: #4B6FC3;
+  color: #ffff;
   display: flex;
   flex-direction: row;
-  background-color: #4B6FC3;
   margin-bottom: 10px;
+  margin-left: 12px;
   margin-right: 12px;
   width: 91%;
-  margin-left: 12px;
-  color: #ffff;
 }
 
 .fa-facebook {
-    margin-top: 2px;
-    font-size: 19px;
-    margin-right: 44px;
-    padding-left: 9px;
-
+  font-size: 19px;
+  margin-right: 44px;
+  margin-top: 2px;
+  padding-left: 9px;
 }
 
 .twitter {
+  background-color: #02A8EF;
+  color: #ffff;
   display: flex;
   flex-direction: row;
-  background-color: #02A8EF;
   margin-bottom: 10px;
+  margin-left: 12px;
   margin-right: 12px;
   width: 91%;
-  margin-left: 12px;
-  color: #ffff;
-
 }
 
 .fa-twitter {
-  margin-top: 2px;
   font-size: 19px;
   margin-right: 44px;
+  margin-top: 2px;
   padding-left: 9px;
-
 }
 
 .linked-in {
+  background-color: #0782BD;
+  color: #ffff;
   display: flex;
   flex-direction: row;
-  background-color: #0782BD;
+  margin-left: 12px;
   margin-right: 12px;
   width: 91%;
-  margin-left: 12px;
-  color: #ffff;
 }
 
 .fa-linkedin {
-  margin-top: 2px;
   font-size: 19px;
   margin-right: 44px;
+  margin-top: 2px;
   padding-left: 9px;
 }
 
-.goober {
-  margin-top: 1rem;
+.job-links {
+  border-bottom: 2px solid lightgray;
   margin-left: 1.4rem;
   margin-right: 1.4rem;
-  border-bottom: 2px solid lightgray;
+  margin-top: 1rem;
 }
 
 .linktothisjob {
@@ -368,55 +347,53 @@ td input {
 
 @media screen and (max-width: 870px) {
 
-.chart {
-  display: block;
-}
+  .chart {
+    display: block;
+  }
 
-.main {
-  display: block;
-}
+  .main {
+    display: block;
+  }
 
 }
 
 @media screen and (max-width: 728px) {
 
-.upper-top-bar {
-  display: block;
-}
+  .upper-top-bar {
+    display: block;
+  }
 
-.top-right-icons {
-  justify-content: center;
-}
+  .top-right-icons {
+    justify-content: center;
+  }
 
-.middle-top-bar {
-  display: block;
-}
+  .middle-top-bar {
+    display: block;
+  }
 
-.middle-bar-2 {
-  justify-content: center;
-}
+  .middle-bar-2 {
+    justify-content: center;
+  }
 
-.top-main-search {
-  padding-right: 0px;
-}
+  .top-main-search {
+    padding-right: 0px;
+  }
 
-.lower-top-bar {
-  text-align: center;
-  flex-direction: column;
-}
+  .lower-top-bar {
+    flex-direction: column;
+    text-align: center;
+  }
 
-h3 {
-  font-size: 17px;
-}
+  h3 {
+    font-size: 17px;
+  }
 
 }
 
 @media screen and (max-width: 670px) {
 
-.nav-bar {
+  .nav-bar {
     display: none;
   }
-
-
 
 }

@@ -16,8 +16,11 @@ Created with a combination of HMTL and CSS
 # Coding Style
 Standard HTML and CSS
 
-#Challenges
+# Challenges
 Had trouble with the chart area, specifically adding the buttons to it. Some challenges when using the media queries to resize.
+
+# Media Queries
+Placed media queries at 870px, 728px, and 670px to adjust size and layout.
 
 # Screenshots
 
